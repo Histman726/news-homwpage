@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .logo{
+    @apply w-[88px]
+  }
+
+  .fondo{
+    @apply w-[730px] h-[300px]
+  }
+
+  .relation{
+    @apply w-[100px] h-[128px]
+  }
+}
+
+@layer base{
+  body{
+    font-family: 'Inter', sans-serif;
+  }
+  h1{
+    @apply text-5xl font-extrabold
+  }
+  h2{
+    @apply text-4xl font-extrabold
+  }
+  h3{
+    @apply text-xl font-extrabold
+  }
+}
