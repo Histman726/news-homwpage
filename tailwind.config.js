@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'sm':'375px'
+      },
       padding:{
         '88':'88px',
         '90':'90px'

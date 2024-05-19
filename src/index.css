@@ -5,15 +5,23 @@
 
 @layer components{
   .logo{
-    @apply w-[88px]
+    @apply lg:w-[88px] w-[43px] h-[28px]
+  }
+
+  .menu{
+    @apply lg:hidden w-[40px] h-[18px]
   }
 
   .fondo{
-    @apply w-[730px] h-[300px]
+    @apply lg:w-[730px] lg:h-[300px] w-[344px] h-[302px]
   }
 
   .relation{
     @apply w-[100px] h-[128px]
+  }
+
+  .btn-more{
+    @apply bg-orange-500 uppercase px-8 py-4 text-sm text-white tracking-[6px] font-bold
   }
 }
 
@@ -22,12 +30,15 @@
     font-family: 'Inter', sans-serif;
   }
   h1{
-    @apply text-5xl font-extrabold
+    @apply lg:text-5xl text-[48px] leading-[3.25rem] font-extrabold
   }
   h2{
-    @apply text-4xl font-extrabold
+    @apply lg:text-4xl text-3xl font-extrabold
   }
   h3{
-    @apply text-xl font-extrabold
+    @apply text-[18px] font-extrabold
+  }
+  img{
+    @apply w-full h-full
   }
 }
