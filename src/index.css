@@ -5,7 +5,7 @@
 
 @layer components{
   .logo{
-    @apply lg:w-[88px] w-[43px] h-[28px]
+    @apply lg:w-[65px] lg:h-[42px] w-[43px] h-[28px]
   }
 
   .menu{
@@ -13,7 +13,7 @@
   }
 
   .fondo{
-    @apply lg:w-[730px] lg:h-[300px] w-[344px] h-[302px]
+    @apply lg:col-span-2 lg:w-full w-[344px] h-[302px] bg-figures-mobile lg:bg-figures-desktop bg-center bg-no-repeat bg-cover
   }
 
   .relation{
@@ -21,7 +21,7 @@
   }
 
   .btn-more{
-    @apply bg-orange-500 uppercase px-8 py-4 text-sm text-white tracking-[6px] font-bold
+    @apply bg-orange-500 uppercase px-4 py-3 text-[15px] text-white tracking-[6px] font-bold w-[186px] h-[45px]
   }
 }
 
@@ -40,5 +40,11 @@
   }
   img{
     @apply w-full h-full
+  }
+  main{
+    @apply lg:grid lg:grid-cols-3 lg:grid-rows-[302px_110px_86px]
+  }
+  footer{
+    @apply lg:grid lg:grid-cols-[100px_1fr_100px_1fr_100px_1fr] grid grid-cols-[100px_1fr] gap-x-5 lg:gap-x-4 gap-y-9
   }
 }

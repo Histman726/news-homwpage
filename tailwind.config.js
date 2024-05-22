@@ -12,7 +12,11 @@ export default {
       padding:{
         '88':'88px',
         '90':'90px'
-      }
+      },
+      backgroundImage:{
+        'figures-mobile': 'url("/img/image-web-3-mobile.jpg")',
+        'figures-desktop': 'url("/img/image-web-3-desktop.jpg")',
+      },
     },
   },
   plugins: [],
