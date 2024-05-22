@@ -16,20 +16,20 @@
   </style>
 </head>
 <body class="lg:px-88 lg:py-90 px-4 py-7">
-<header class="flex gap-64 lg:gap-[50%] xl:gap-[61.5%]">
+<header class="flex gap-64 lg:gap-[50%] xl:gap-[61.5%] relative overflow-hidden">
   <div class="logo">
     <img src="/img/logo.svg" alt="">
   </div>
-  <div class="menu">
+  <div class="menu" id="hamburger">
     <img src="/img/icon-menu.svg" alt="">
   </div>
-  <nav class="hidden lg:block w-[435px]">
+  <nav class="lg:block w-[435px] absolute -right-[200%] lg:right-0 bg-white h-[1850px] lg:h-auto px-5 py-6 lg:px-0 lg:py-0" id="menu">
     <ul class="lg:flex w-full lg:justify-between">
-      <li class="text-gray-500 text-xl">Home</li>
-      <li class="text-gray-500 text-xl">New</li>
-      <li class="text-gray-500 text-xl">Popular</li>
-      <li class="text-gray-500 text-xl">Trending</li>
-      <li class="text-gray-500 text-xl">Categories</li>
+      <li class="text-gray-500 mt-4 text-xl">Home</li>
+      <li class="text-gray-500 mt-4 text-xl">New</li>
+      <li class="text-gray-500 mt-4 text-xl">Popular</li>
+      <li class="text-gray-500 mt-4 text-xl">Trending</li>
+      <li class="text-gray-500 mt-4 text-xl">Categories</li>
     </ul>
   </nav>
 </header>
@@ -91,5 +91,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+<script src="./src/main.js"></script>
 </body>
 </html>
